@@ -8,7 +8,7 @@ import './assets/global.css'
 import App from './App'
 import Layout from './components/Layout'
 import ErrorPage from './ErrorPage'
-import AppProvider from './context/AppContext';
+import { AppProvider } from './context/AppContext'
 
 const router = createBrowserRouter([
   {

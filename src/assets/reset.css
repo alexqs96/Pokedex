@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Flexo";
-  src: url("../fonts/Flexo.woff2") format("woff2");
+  src: url("Flexo.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Inter";
-  src: url("../fonts/Inter.woff2") format("woff2");
+  src: url("Inter.woff2") format("woff2");
 }
 
 * {
