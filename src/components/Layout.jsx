@@ -1,8 +1,8 @@
 import { Children, useEffect, useState, useContext, useRef } from 'react'
 import { Outlet, Link, useSearchParams } from "react-router-dom"
-import { AbilityIcon, DownloadIcon, FilterIcon, GithubLogo, PokemonLogo, SearchIcon } from "./icons"
+import { AbilityIcon, DownloadIcon, FilterIcon, GithubLogo, PokemonLogo, SearchIcon } from "./Icons"
 import { FilterOption } from "./Styles"
-import Darkmode from './darkmode'
+import Darkmode from './Darkmode'
 import { AppContext } from '../context/appContext'
 
 const PageHeader = () => {
