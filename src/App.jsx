@@ -1,6 +1,6 @@
 import { Children, useContext, useEffect } from 'react'
 import { Card, InfoCard, ItemsBox, Tag } from './components/Styles'
-import { AppContext } from './context/appContext'
+import { AppContext } from './context/AppContext'
 import Buttons from './components/Buttons'
 import { useSearchParams } from 'react-router-dom'
 

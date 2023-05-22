@@ -1,4 +1,4 @@
-import { Moon, Sun } from "./icons"
+import { Moon, Sun } from "./Icons"
 
 /**
  * Componente de Modo Oscuro

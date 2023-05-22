@@ -1,5 +1,5 @@
 import { useContext, Children } from "react"
-import { AppContext } from "../context/appContext"
+import { AppContext } from "../context/AppContext"
 
 /**
  * Componente de botones de paginación.

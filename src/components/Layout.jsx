@@ -3,7 +3,7 @@ import { Outlet, Link, useSearchParams } from "react-router-dom"
 import { AbilityIcon, DownloadIcon, FilterIcon, GithubLogo, PokemonLogo, SearchIcon } from "./Icons"
 import { FilterOption } from "./Styles"
 import Darkmode from './Darkmode'
-import { AppContext } from '../context/appContext'
+import { AppContext } from '../context/AppContext'
 
 const PageHeader = () => {
   //Estado para activar el popup de restauración de base de datos de pokemons
