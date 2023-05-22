@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Flexo";
+  src: url("../fonts/Flexo.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter.woff2") format("woff2");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Inter";
+  scroll-behavior: smooth;
+}
+
+button{
+  display: flex;
+  outline: transparent;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
